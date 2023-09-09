@@ -3,13 +3,13 @@ package ejercicioSH;
 public class Figura {
     private int codigo;
     private double precio;
-    private SuperHeroe superhéroe;
+    private SuperHeroe superheroe;
     private Dimension dimensiones;
 
-    public Figura(int codigo, double precio, SuperHeroe superhéroe, Dimension dimensiones) {
+    public Figura(int codigo, double precio, SuperHeroe superheroe, Dimension dimensiones) {
         this.codigo = codigo;
         this.precio = precio;
-        this.superhéroe = superhéroe;
+        this.superheroe = superheroe;
         this.dimensiones = dimensiones;
     }
 
@@ -29,12 +29,12 @@ public class Figura {
         this.precio = precio;
     }
 
-    public SuperHeroe getSuperhéroe() {
-        return superhéroe;
+    public SuperHeroe getSuperheroe() {
+        return superheroe;
     }
 
-    public void setSuperhéroe(SuperHeroe superhéroe) {
-        this.superhéroe = superhéroe;
+    public void setSuperheroe(SuperHeroe superhéroe) {
+        this.superheroe = superhéroe;
     }
 
     public Dimension getDimensiones() {
@@ -53,7 +53,7 @@ public class Figura {
         return "Coleccion{" +
                 "codigo=" + codigo +
                 ", precio=" + precio +
-                ", superhéroe=" + superhéroe +
+                ", superhéroe=" + superheroe +
                 ", dimensiones=" + dimensiones +
                 '}';
     }
